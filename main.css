@@ -1,0 +1,35 @@
+/* CSS Rulesets consist of three parts:*/
+/*1: Selector to select what element youre styling*/
+/*2: Decleration block where your CSS go*/
+/*3: Declerations of CSS rules inside the decleration block*/
+
+table, th, td {
+    border-width: 1px;
+    border-color: pink;
+    border-style: solid;
+}
+table{
+    /* Set the width of table elements to 100% of the width of the parent element*/
+    width:100%;
+    /* Set the background color of the table element to white*/
+    background-color: white;
+}
+
+h1{
+    /* Aligning the text for the h1 to center*/
+    text-align: center;
+}
+
+th{
+    /*Upping the font size for the table headers */
+    font-size:20pt;
+    /*underline the table headers*/
+    text-decoration:underline;
+}
+td{
+    /*center the text for the table data elements*/
+    text-align: center;
+    /*upping the font size for the table data elements*/
+    font-size:16pt;
+}
+

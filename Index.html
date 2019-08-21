@@ -1,0 +1,96 @@
+<!-- DOCTYPE -->
+<!DOCTYPE html>
+<!-- html -->
+<html>
+ <!-- Head -->   
+<head>
+    <title>Resource Table Site</title>
+     <!-- metadata -->
+    <meta name="author" content="Marlie Shirley">
+    <meta name="description" content="This is a site that we use to list resources for web development.">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial scale=1.0">
+
+    <link rel="stylesheet" href="main.css">
+    
+    <style>
+        body{
+            background-color:lightcoral;
+            font-size: 15pt;
+        }
+        h1{
+            font-size: 30pt;
+        }
+    </style>
+</head>
+<!-- body -->
+<body>
+    <!-- Hheader text for our site -->
+    <!-- The style attribute below is an example of an inline style -->
+    <!-- inline styles are when we are styling the element within the tag for the element -->
+<h1 style="color: green;">My Web Development Resources</h1>
+
+<!-- This is an anchor tag, which is used to link to stuff -->
+<!-- The href attribute is the URL that the anchor tag naviagtes to-->
+<!-- The target attribute determines how the link is opened by our browser (_blank opens in new tab) -->
+<!-- <a href="https://www.google.com" target="_blank">Google</a> -->
+
+<!--This is the container for jan HTML Table  -->
+<table>
+    <!-- Tables in HTML consist of multiple rows and columns. each row will hhave data that will store in each column -->
+    <!-- Tables can also have headers for the columns that we can display -->
+
+    <!-- Each row for our table is a tr element -->
+    <tr> 
+        <!-- th elements are a table header -->
+        <th>Resource</th>
+        <th>Description</th>
+        <th>Link</th>
+    </tr>
+
+    <tr>
+        <!-- td elements are table data -->
+        <td>W3Schools</td>
+        <td>Web Development, Tutorials, and Documentation</td>
+        <td>
+            <a href="https://www.w3schools.com" target="_blank">Link</a>
+        </td>
+
+    </tr>
+    <tr>
+            <td>Free Code Camp</td>
+            <td>Helps introduce coding and how to use it</td>
+            <td>
+                <a href="https://www.freecodecamp.org" target="_blank">Link</a>
+            </td>
+    </tr>
+    <tr>
+        <td>Mozilla Developer Network</td>
+        <td>Web Development Resources and Documentation</td>
+        <td>
+            <a href="https://developer.mozilla.org/en-US/" target="_blank">Link</a>
+        </td>
+    </tr>
+
+    <tr>
+        <td>Stack Overflow</td>
+        <td>The Ultimate Place for Coding Question Answers</td>
+        <td>
+            <a href="https://stackoverflow.com" target="_blank">Link</a>
+        </td>
+    </tr>
+
+    <tr>
+        <td>Chrome Dev Tools</td>
+        <td>Hhow to use the chrome debugging tools</td>
+        <td>
+            <a href="https://developers.google.com/web/tools/chrome-devtools/?utm_source=dcc&utm_medium=redirect&utm_campaign=2018Q2" target="_blank">Link</a>
+        </td>
+    </tr>
+  
+</table>
+</body>
+
+</html>
+
+   
